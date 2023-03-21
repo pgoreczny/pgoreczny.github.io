@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: rgb(5, 5, 71);
+            background-image: url(/assets/bg-stars.png);
+            background-size: 120%;
+            color: #f3c50c !important;
+        }
+        .navbar {
+            background-color: rgb(5, 5, 71)!important;
+        }
+        .nav-link {
+            color: #f3c50c !important;
+        }
+        #main {
+            padding: 10% 10% 10% 10%;
+            text-align: center
+        }
+
+        #chevron {
+            width: 8em;
+        }
+
+        #play {
+            margin-top: 30%;
+            margin-bottom: 10%
+        }
+
+        #playButton {
+            width: 12em;
+            height: 5em;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/game/game.html">Play online</a>
+                  </li>
+                <li class="nav-item">
+                <a class="nav-link" href="About game">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div id="main">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar in dui ullamcorper scelerisque. Cras
+            porta aliquet ultricies. Donec mollis viverra massa, a auctor ligula vestibulum in. Sed elit ipsum, dictum
+            eget felis eu, fermentum porttitor est. In blandit mollis porta. Maecenas laoreet auctor consequat. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</h1>
+        <a href="#play">
+            <i class="bi bi-chevron-compact-down" style="font-size: 10rem;">
+            </i>
+        </a>
+        <div id="play">
+            <h2>
+                You can try the game immediately
+                <br>
+                No installation or registering required. :)
+            </h2>
+            <button id="playButton" class="btn btn-primary" type="button"
+                onclick="document.location='/game/game.html'">Play</button>
+        </div>
+    </div>
+</body>
+
+</html>
